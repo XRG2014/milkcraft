@@ -5,5 +5,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: cd /docs
-      - run: grep -r Mcsrvstat
+      - run: ls /home/runner
