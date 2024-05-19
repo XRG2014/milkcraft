@@ -13,7 +13,7 @@ showinSearchEngines: true
 # Set basic server info
 serverName: Milkcraft
 serverDescription: The XRG2014 Minecraft Server
-serverIP: 31.25.11.39:19132
+serverIP: 31.25.11.39
 useBedrockForOnlineStatus: true
 
 
