@@ -3,8 +3,6 @@
 {% include serverstatus.js %}
 .then(data => {
     if (data.online == true) {
-        document.getElementById("serverVer").innerHTML = `Minecraft ${data.version} Bedrock Server`;
-
         // siteNav dependent
         {% if site.siteNav %}
         document.getElementById("serverInd").classList.add("text-green-600");
