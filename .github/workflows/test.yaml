@@ -5,4 +5,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: ls /home/runner/work
+      - run: cd /home/runner/work/milkcraft/docs
+      - run: grep -r Mcsrvstat
