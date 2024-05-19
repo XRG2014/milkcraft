@@ -3,7 +3,7 @@
 {% include serverstatus.js %}
 .then(data => {
     if (data.online == true) {
-        document.getElementById("serverVer").innerHTML = `Minecraft 1.20.6 Java Server`;
+        document.getElementById("serverVer").innerHTML = `Minecraft ${data.version} Java Server`;
 
         // siteNav dependent
         {% if site.siteNav %}
