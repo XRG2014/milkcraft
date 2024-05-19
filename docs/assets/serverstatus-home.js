@@ -25,4 +25,6 @@
         document.getElementById("serverStatusM").innerHTML = `<p class="font-bold select-none"><span class="text-red-600">&#11044;</span>&emsp;Offline</p>`;
         {% endif %}
     }
+    document.getElementById("serverStatus").innerHTML = ""
+    document.getElementById("serverStatusM").innerHTML = ""
 });
