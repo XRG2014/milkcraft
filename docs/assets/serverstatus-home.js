@@ -13,6 +13,10 @@
         document.getElementById("serverStatus").innerHTML = `<p class="font-bold select-none"><span class="text-green-600">&#11044;</span>&emsp;We're online!&ensp;&middot;&ensp;${data.players.online} playing</p>`;
         document.getElementById("serverStatusM").innerHTML = `<p class="font-bold select-none"><span class="text-green-600">&#11044;</span>&emsp;Online, ${data.players.online} playing</p>`;
         {% endif %}
+
+        if (document.getElementById("serverVer").innerHTML == `Minecraft ${data.version} Bedrock Server`) {
+            alert('hi');
+        }
     }
     else {
         document.getElementById("serverPlaynow").innerHTML = `<span class="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-thin uppercase text-gray-900 mr-2 shadow-lg">Currently Offline</span>`;
