@@ -5,6 +5,12 @@ navname: About
 
 # {{ site.serverName }}
 
-Milkcraft is a Minecraft server made by XRG2014
+{{ site.serverName }} is a Minecraft server made by XRG2014
 
-[GitHub](https://github.com/XRG2014/milkcraft-mcje)
+[GitHub](https://github.com/XRG2014/milkcraft)
+
+:::warning
+
+hi
+
+:::
