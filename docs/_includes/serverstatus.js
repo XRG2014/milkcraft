@@ -1,8 +1,8 @@
 // Handling errors
 function handleErrors(response) {
     if (!response.ok) {
-        document.getElementById("serverStatus").innerHTML = "";
-        document.getElementById("serverStatusM").innerHTML = "";
+//        document.getElementById("serverStatus").innerHTML = "";
+//        document.getElementById("serverStatusM").innerHTML = "";
         document.getElementById("serverLogoName").classList.remove("hidden");
     }
     return response;
