@@ -113,9 +113,13 @@ layout: compress
     {% endif %}
 
     <script>
-        setTimeout(1500);
-        document.getElementById("serverStatus").remove();
-        document.getElementById("serverStatusM").remove();
+        const sleep = (delay) => new Promise((resolve) => setTimeout(resolve, delay))
+
+        const repeatedGreetings = async () => {
+            await sleep(1500)
+            document.getElementById("serverStatus").remove();
+            document.getElementById("serverStatusM").remove();
+        }
     </script>
 
 </body>
